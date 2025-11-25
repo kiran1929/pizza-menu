@@ -1,6 +1,6 @@
-print("welcome to CRUNCH IT....")
+print("welcome to CRUNCH IT...")
 bill=0
-size=input("enter the size of the pizza (S/M/L)")
+size=input("Please enter the size of the pizza (S/M/L)")
 if size=='s' or size=='S':
     bill=100
     print("small pizza has been added rs:",bill)
@@ -57,3 +57,4 @@ elif size=='l' or size=='L':
         print(f"your bill is {bill} only")
 else:
     print("enter the correct size of the pizza")
+
