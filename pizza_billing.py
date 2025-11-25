@@ -56,5 +56,6 @@ elif size=='l' or size=='L':
             print(f"your total bill is{bill} only")
         print(f"your bill is {bill} only")
 else:
-    print("enter the correct size of the pizza")
+    print("Please enter the correct size of the pizza")
+
 
